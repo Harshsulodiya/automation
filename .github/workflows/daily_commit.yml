@@ -16,7 +16,7 @@ jobs:
       - name: Set Git Identity  # NEW STEP
         run: |
           git config --global user.name "github-actions"
-          git config --global user.email "rohanbhatotiya@gmail.com"
+          git config --global user.email "harshsulodiya09@gmail.com"
 
       - name: Make Multiple Commits
         run: |
@@ -33,4 +33,4 @@ jobs:
         run: |
           git pull origin main --rebase  # Prevent conflicts
           git push origin main --force  # Force updates
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/rohanbhatotiya/automation.git
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/harshsulodiya/automation.git
